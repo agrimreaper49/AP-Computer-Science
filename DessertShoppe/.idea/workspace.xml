@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="758e668b-b1a4-4620-8c31-991a3fc0dbea" name="Default Changelist" comment="">
+    <list default="true" id="758e668b-b1a4-4620-8c31-991a3fc0dbea" name="Default Changelist" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/IceCream.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/IceCream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Candy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Checkout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +10,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="agrimreaper49 &lt;75flyershd@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -28,9 +30,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Checkout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Checkout" />
+      <module name="DessertShoppe" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Checkout" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,22 +61,70 @@
       <workItem from="1580949227688" duration="314000" />
       <workItem from="1580950772939" duration="6000" />
       <workItem from="1580955651336" duration="1116000" />
+      <workItem from="1580957144333" duration="1406000" />
     </task>
+    <task id="LOCAL-00001" summary="updates">
+      <created>1580957243730</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580957243730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="115" key="#Project_Structure" timestamp="1580949344086">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="358" y="115" key="#Project_Structure/0.23.1440.811@0.23.1440.811" timestamp="1580949344086" />
-    <state x="184" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580956910271">
+    <state x="184" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580959408815">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580956910271" />
+    <state x="184" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580959408815" />
     <state x="184" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.811@0.23.1440.811" timestamp="1580949302548" />
+    <state x="229" y="52" key="CommitChangelistDialog2" timestamp="1580959281468">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580959281468" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580959704865">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580959704865" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580959704864">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580959704864" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580959704863">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580959704863" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580959704864">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580959704864" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1580959430122">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580959430122" />
     <state x="397" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1580955658251">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
