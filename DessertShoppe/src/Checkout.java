@@ -10,6 +10,7 @@ public class Checkout {
 	IceCream ice = new IceCream (0.25 , "IceCream");
 	Cookie cookie = new Cookie ("Cookie" , 5 , 0.50);
 	Candy candy = new Candy("Candy" , 0.50 , 2);
+
 	
 	public static void main (String [] args) {
 	}
@@ -39,11 +40,16 @@ public class Checkout {
 		return total;
 	}
 	public String toString() {
-		return "The Dessert Shoppe\n------------------" + 
-	cookie.returnNumber() + "@" + cookie.pricePerDozen() + "/lb" + "\n" + 
-				cookie.returnName() + candy.getWeight() + "lbs" + "@" + candy.getPricePerPound() + "/lb" +
-				"/lb" + "\n" + candy.returnName() + "\n" + ice.getCost() + "\n"  + ice.returnName() + "\n" +
-				sun.getCost() + "\n" + ) ;
+		String str = "";
+		str += "The Dessert Shoppe\n------------------";
+		str += cookie.returnNumber() + "@" + cookie.pricePerDozen() + "/lb" + "\n" +
+				cookie.returnName();
+		str += candy.getWeight() + "lbs" + "@" + candy.getPricePerPound() + "/lb" +
+				"/lb" + "\n" + candy.returnName() + "\n";
+		str += ice.getCost() + "\n"  + ice.returnName() + "\n" +
+				sun.getCost() + "\n";
+		System.out.println(str);
+		return str;
 	}
 
 

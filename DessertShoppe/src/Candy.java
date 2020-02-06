@@ -24,7 +24,7 @@ public class Candy extends DessertItem {
 		return this.pricePerPound;
 	}
 	public String getName() {
-		
+		return this.string;
 	}
 
 }
