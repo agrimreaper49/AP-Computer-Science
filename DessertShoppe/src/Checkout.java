@@ -14,7 +14,7 @@ public class Checkout {
 	public static void main (String [] args) {
 	}
 	
-	public double enterItems() {
+	public double enterItemsGetRegister() {
 		items.add(sun);
 		items.add(ice);
 		items.add(cookie);
@@ -29,16 +29,21 @@ public class Checkout {
 		cashRegister = 0;
 		items.clear();
 	}
+	public double getCostBeforeTax(){
+		double total = enterItemsGetRegister();
+		return total;
+	}
 	public double getTotalCostAfterTax() {
 		double total = 0;
-		total += enterItems() * this.taxRate;
+		total += enterItemsGetRegister() * this.taxRate;
 		return total;
 	}
 	public String toString() {
 		return "The Dessert Shoppe\n------------------" + 
 	cookie.returnNumber() + "@" + cookie.pricePerDozen() + "/lb" + "\n" + 
-				cookie.returnName() + candy.getWeight() + "lb" + "@" + candy.get() +
-				"/lb" + "\n" + cookie.returnName() ;
+				cookie.returnName() + candy.getWeight() + "lbs" + "@" + candy.getPricePerPound() + "/lb" +
+				"/lb" + "\n" + candy.returnName() + "\n" + ice.getCost() + "\n"  + ice.returnName() + "\n" +
+				sun.getCost() + "\n" + ) ;
 	}
 
 

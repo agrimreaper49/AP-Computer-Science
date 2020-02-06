@@ -18,9 +18,6 @@ public class IceCream extends DessertItem {
 		return (int) (this.getCost() - o.getCost());
 		
 	}
-	public double returnCost() {
-		return this.cost;
-	}
 	public String returnName() {
 		return this.name;
 	}
