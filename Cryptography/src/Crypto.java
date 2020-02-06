@@ -6,10 +6,6 @@
  * they are shown You may choose to add additional methods.
  * 
  * Note: You should call lettersOnly at the beginning of every method.
- * 
- * @author Bethany Houser
- * @author Gabriela Moffat
- * @version 1.0
  */
 public class Crypto {
     
