@@ -40,6 +40,9 @@ public class Checkout {
 		total += enterItemsGetRegister() * this.taxRate;
 		return total;
 	}
+	public double getEffectOfTax(){
+		return enterItemsGetRegister() * this.taxRate;
+	}
 	public String toString() {
 		String str = "";
 		str += "The Dessert Shoppe\n------------------";
@@ -49,6 +52,12 @@ public class Checkout {
 				"/lb" + "\n" + candy.returnName() + candy.getCost() + "\n";
 		str += ice.getCost() + "lbs" + "\n" + ice.returnName() + ice.getCost() + "\n";
 		str += sun.getCost() + "\n"  + sun.returnName() + "\n" + (ice.getCost() + sun.getCost()) + "\n";
+		str += "----------------------------";
+		str += "Number of items:" + 4 + "\n";
+		str += "Subtotal: " + getCostBeforeTax();
+		str += "Tax: " + getEffectOfTax() + "\n";
+		str += "Total Cost: " + getTotalCostAfterTax();
+
 		return str;
 	}
 
