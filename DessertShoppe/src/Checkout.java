@@ -12,7 +12,8 @@ public class Checkout {
 	Candy candy = new Candy("Candy" , 0.50 , 2);
 
 	
-	public static void main (String [] args) {
+	public static void main(String[] args) {
+
 	}
 	
 	public double enterItemsGetRegister() {
@@ -42,13 +43,12 @@ public class Checkout {
 	public String toString() {
 		String str = "";
 		str += "The Dessert Shoppe\n------------------";
-		str += cookie.returnNumber() + "@" + cookie.pricePerDozen() + "/lb" + "\n" +
-				cookie.returnName();
+		str += cookie.returnNumber() + "@" + cookie.pricePerDozen() + "/dz" + "\n" +
+				cookie.returnName() + cookie.returnNumber();
 		str += candy.getWeight() + "lbs" + "@" + candy.getPricePerPound() + "/lb" +
-				"/lb" + "\n" + candy.returnName() + "\n";
-		str += ice.getCost() + "\n"  + ice.returnName() + "\n" +
-				sun.getCost() + "\n";
-		System.out.println(str);
+				"/lb" + "\n" + candy.returnName() + candy.getCost() + "\n";
+		str += ice.getCost() + "lbs" + "\n" + ice.returnName() + ice.getCost() + "\n";
+		str += sun.getCost() + "\n"  + sun.returnName() + "\n" + (ice.getCost() + sun.getCost()) + "\n";
 		return str;
 	}
 
