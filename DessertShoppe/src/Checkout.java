@@ -49,7 +49,7 @@ public class Checkout {
 		str += cookie.returnNumber() + "@" + cookie.pricePerDozen() + "/dz" + "\n" +
 				cookie.returnName() + cookie.returnNumber();
 		str += candy.getWeight() + "lbs" + "@" + candy.getPricePerPound() + "/lb" +
-				"/lb" + "\n" + candy.returnName() + candy.getCost() + "\n";
+				"/lb" + "\n" + candy.getName() + candy.getCost() + "\n";
 		str += ice.getCost() + "lbs" + "\n" + ice.returnName() + ice.getCost() + "\n";
 		str += sun.getCost() + "\n"  + sun.returnName() + "\n" + (ice.getCost() + sun.getCost()) + "\n";
 		str += "----------------------------";
