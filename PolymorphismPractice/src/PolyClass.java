@@ -2,9 +2,12 @@ public class PolyClass {
     public static void main (String [] args){
         Car newCar =  new Toyota("Tacoma", 2020);
         ((Toyota)newCar).drive(50);
+        Garage mCar = new Car();
+        ((Toyota)mCar).drive();
+        dsfgsdfgsfdg
     }
 }
-class Car {
+class Car implements Garage{
     public void drive(){
         System.out.println("Drive method of Car");
     }
@@ -27,4 +30,7 @@ class Toyota extends Car{
         }
         System.out.println("Drive Complete, drove for " + n + " miles");
     }
+}
+public interface Garage {
+    void shutdown();
 }
