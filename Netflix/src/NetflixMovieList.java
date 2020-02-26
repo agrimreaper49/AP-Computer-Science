@@ -16,22 +16,22 @@ public class NetflixMovieList {
                 + "nobody unless you can sing – which is unfortunate "
                 + "for Mumble, who is the worst singer in the world. "
                 + "He is born dancing to his own tune...tap dancing " , false);
-        Movie happyFeet1 = new Movie ("Batman Begins" , 2005, "PG-13", 2 , "Action",
+        Movie batman = new Movie ("Batman Begins" , 2005, "PG-13", 2 , "Action",
                 "In the great city of Gotham, crime "
                 + "is everywhere, until a crusader known as Batman awakens " , false);
-        Movie happyFeet2 = new Movie ("Star Wars" , 1977, "PG-13", 2 , "Sci-Fi",
+        Movie starWars = new Movie ("Star Wars" , 1977, "PG-13", 2 , "Sci-Fi",
                 "A long time ago, in a galaxy far far away, the resistance fights the sith" , true);
-        Movie happyFeet3 = new Movie ("Lord of the Rings, the fellowship of the ring" , 2001, "PG", 2 , "Fantasy",
+        Movie lotr = new Movie ("Lord of the Rings, the fellowship of the ring" , 2001, "PG", 2 , "Fantasy",
                 "In the great nation of middle earth, Frodo "
                 + "and his friends must destroy the ring to restore balance" , true);
-        Movie happyFeet4 = new Movie ("Back to the future" , 1984, "PG", 2 , "Sci-Fi",
+        Movie backToTheFuture = new Movie ("Back to the future" , 1984, "PG", 2 , "Sci-Fi",
                 "Marty accidentally goes back in time, and ruins his present " , true);
        
         MovieList.add(happyFeet );
-        MovieList.add(happyFeet1 );
-        MovieList.add(happyFeet2 );
-        MovieList.add(happyFeet3 );
-        MovieList.add(happyFeet4 );
+        MovieList.add(batman );
+        MovieList.add(starWars );
+        MovieList.add(lotr );
+        MovieList.add(backToTheFuture );
         return MovieList;
 
     }
