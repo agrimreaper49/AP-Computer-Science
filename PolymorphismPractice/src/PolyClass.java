@@ -4,7 +4,6 @@ public class PolyClass {
         ((Toyota)newCar).drive(50);
         Garage mCar = new Car();
         ((Toyota)mCar).drive();
-        dsfgsdfgsfdg
     }
 }
 class Car implements Garage{
